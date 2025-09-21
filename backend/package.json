@@ -1,0 +1,20 @@
+{
+  "name": "water-project",
+  "version": "1.0.0",
+  "description": "Groundwater telemetry project",
+  "main": "seed.js",
+  "type": "module",
+  "scripts": {
+    "start": "node seed.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.18",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
